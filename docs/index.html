@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Support for Cubolume, the twistable sound cube instrument for iPhone and iPad.">
+  <link rel="icon" type="image/png" href="icon.png">
+  <title>Cubolume — Support</title>
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #11141c; color: #e8ebf2; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.75; }
+    main { max-width: 760px; margin: 0 auto; padding: 48px 24px 72px; }
+    nav, footer { font-size: .95rem; color: #9aa3b8; }
+    nav { display: flex; flex-wrap: wrap; gap: 24px; margin-bottom: 42px; }
+    a { color: #6ad6d0; text-underline-offset: 4px; }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible { outline: 2px solid #6ad6d0; outline-offset: 5px; }
+    h1 { font-family: Georgia, serif; font-weight: 500; font-size: clamp(2.2rem, 6vw, 3.1rem); line-height: 1.15; margin: 0 0 12px; }
+    h2 { font-size: 1.18rem; margin-top: 32px; line-height: 1.4; color: #f2f4f8; }
+    .eyebrow { color: #e3a65a; text-transform: uppercase; font-size: .8rem; letter-spacing: .12em; }
+    .summary { padding: 18px 22px; border-left: 3px solid #e3a65a; background: #1a1e2a; margin: 28px 0; }
+    footer { margin-top: 42px; padding-top: 20px; border-top: 1px solid #262b3a; }
+  </style>
+</head>
+<body>
+<main>
+  <nav aria-label="Main navigation"><a href="./">Cubolume Support</a><a href="privacy.html">Privacy Policy</a></nav>
+  <img src="icon.png" alt="Cubolume: a twistable sound cube" width="88" height="88" style="border-radius:20px;margin-bottom:20px">
+  <p class="eyebrow">Twist the groove</p>
+  <h1>Cubolume Support</h1>
+  <p>A 3D cube instrument whose rotating layers redistribute sounds and notes across six 16-step sequences.</p>
+  <div class="summary">Need help or want to report a bug? Email <a href="mailto:martoadler@gmail.com">martoadler@gmail.com</a>.</div>
+
+  <h2>How do I turn the cube?</h2>
+  <p>Drag sideways across a tile to turn its row, or up/down to turn its column — including inner layers, like the middle row of a 3×3 cube. Use two fingers to orbit the whole cube. Drag empty space to scroll the interface. The face buttons (Front, Back, Top, Bottom, Right, Left) smoothly orient the view to that face without changing the pattern.</p>
+  <h2>What are slots, faces, and sizes?</h2>
+  <p>Choose 2×2, 3×3, or 4×4 from the size button — that's 4, 9, or 16 sound slots. The six face lanes (Front/Back/Top/Bottom/Right/Left) are separate from the slots: each face holds its own 16-step pattern, and tiles carry their sound/note assignment as layers turn.</p>
+  <h2>How do I add my own sounds?</h2>
+  <p>Open Samples, choose a slot, then Import audio, Record microphone, or Slice one audio across the cube. Set Start/End on the waveform and tap Use crop to install up to 30 seconds. Restore factory sound brings back the original voice for that slot.</p>
+  <h2>How do I assign a sound or note to a specific tile?</h2>
+  <p>Tap a tile, then Edit selected tile to choose its sound slot and note, and tap Apply.</p>
+  <h2>What does Randomize do?</h2>
+  <p>Randomize opens a panel with Everything (sounds + steps + tempo + FX), All cube sounds, Tempo only, and Effects only.</p>
+  <h2>How do I use Mixer, FX, and Perform?</h2>
+  <p>Mixer has master volume plus a fader, mute, and solo for every sound slot. FX offers reverb and delay, globally and per sound. Perform opens a live interface with per-channel mute/volume, an XY pad mapped to delay/reverb mix, FX Hold, and Dry.</p>
+  <h2>How do I export or share a project?</h2>
+  <p>Use the share-arrow button. Render and share WAV bounces your sequence to audio. Share patch + samples creates a portable .cubolume file with your custom sounds embedded, restorable with Patches → Import patch + samples… on another installation or inside the AUv3.</p>
+  <h2>How do I use Cubolume in a host like GarageBand?</h2>
+  <p>Install the standalone app, then select "Cubolume: Sonic Cube" as an Audio Unit instrument in a compatible host. The plugin's own Play button previews the cube independently of host transport; host Record captures the generated sequence as MIDI on a software-instrument track.</p>
+  <h2>How does the iPad workspace work?</h2>
+  <p>A large cube canvas sits on the left with a scrollable control console on the right. Narrow windows switch to the compact iPhone-style layout.</p>
+  <h2 id="privacy">Privacy</h2>
+  <p>Cubolume runs entirely on your device and does not require an account. Read the full <a href="privacy.html">Privacy Policy</a> for details on local storage, microphone recording, exports, and support email.</p>
+  <footer>Cubolume · Martin Adler · <a href="mailto:martoadler@gmail.com">martoadler@gmail.com</a></footer>
+</main>
+</body>
+</html>
